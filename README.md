@@ -36,16 +36,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://dapphdesign.nl
-  https://dapphdesign.nl/projecten
+  https://tonyschocolonely.com/nl/nl/chocoshop
+  https://tonyschocolonely.com/nl/nl/onze-missie
 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  Chocoshop
   <img src="readme-images/dapphdesignhome.png" width="375px" alt="Homepagina Dapph Design">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  Projecten pagina 
   <img src="readme-images/dapphdesignprojecten.png" width="375px" alt="Pagina waar de projecten laten zien worden.">
  
 </details>
