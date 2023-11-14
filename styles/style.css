@@ -5,6 +5,43 @@
   box-sizing:border-box;  
 }
 
+@font-face {
+    font-family: 'AmericanTypewriterITCPro-Lt';
+    src: url('fonts/AmericanTypewriterITCPro-Lt.woff2') format('woff2'),
+        url('fonts/AmericanTypewriterITCPro-Lt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Chocoladeletter';
+    src: url('fonts/Chocoladeletter.woff2') format('woff2'),
+        url('fonts/Chocoladeletter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AmericanTypewriterITCPro';
+    src: url('fonts/AmericanTypewriterITCPro-Bold.woff2') format('woff2'),
+        url('fonts/AmericanTypewriterITCPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AmericanTypewriterITCPro-Med';
+    src: url('fonts/AmericanTypewriterITCPro-Med.woff2') format('woff2'),
+        url('fonts/AmericanTypewriterITCPro-Med.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 /*********************/
 /* CUSTOM PROPERTIES */
@@ -14,47 +51,14 @@
 	--color-text:white;
 	--color-background:red;
 	--lettertype: 'AmericanTypewriterITCPro';
-	--groottenavigatie: 1.4em
+	--groottenavigatie: 1.2em;
+    --lineheight: 1.39;
+    --font-size: 18px;
 }
 
 /****************/
 /* JOUW STYLING */
 /****************/
-@font-face {
-    font-family: 'AmericanTypewriterITCPro-Lt';
-    src: url('AmericanTypewriterITCPro-Lt.woff2') format('woff2'),
-        url('AmericanTypewriterITCPro-Lt.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Chocoladeletter';
-    src: url('Chocoladeletter.woff2') format('woff2'),
-        url('Chocoladeletter.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'AmericanTypewriterITCPro';
-    src: url('AmericanTypewriterITCPro-Bold.woff2') format('woff2'),
-        url('AmericanTypewriterITCPro-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'AmericanTypewriterITCPro-Med';
-    src: url('AmericanTypewriterITCPro-Med.woff2') format('woff2'),
-        url('AmericanTypewriterITCPro-Med.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
 
 /* jouw code */
@@ -67,6 +71,7 @@ body {
 }
 
 
+
 /**************/
 /*header*/
 /**************/
@@ -76,8 +81,7 @@ nav {
 	justify-content: center;
 	font-size: var(--groottenavigatie);
     font-family: var(--lettertype);
-    font-weight: bold;
-    font-style: normal;
+    font-weight: 900;
 }
 
 ul {
@@ -90,5 +94,5 @@ ul li:nth-of-type(1){
 }
 
 li.nietbold {
-	font-weight: 100;
+	font-family: 'AmericanTypewriterITCPro-Lt';
 }
