@@ -80,6 +80,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 </details>
 
+## Eerste Code (week 1)
+<details>
+<summary>Ik ben alvast begonnen met wat code schrijven om te kijken hoe het is om de website na te maken. Ik ben begonnen met wat variabelen aanmaken en de navigatie aan te maken. Dit ziet er nu zo uit als hieronder te zien is in de screenshot.</summary>
+
+## Origineel op de pagina van Tony's Chocolony
+<img src="readme-images/navigatie-origineel.png" width="375px" alt="onze missie, doe mee, chocoshop, gepersonaliseerd, super store, en verder..">
+
+## Mijn eerste poging tot het namaken van de navigatie
+<img src="readme-images/navigatie-nagemaakt.png" width="375px" alt="onze missie, doe mee, chocoshop, gepersonaliseerd, super store, en verder..">
+
+</details>
+
 
 
 
