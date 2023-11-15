@@ -1,8 +1,10 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -47,13 +49,14 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text:white;
-	--color-background:red;
-	--lettertype: 'AmericanTypewriterITCPro';
-	--groottenavigatie: 1.2em;
+    /* startje */
+    --color-text: white;
+    --color-background: red;
+    --lettertype: 'AmericanTypewriterITCPro';
+    --groottenavigatie: 1.2em;
     --lineheight: 1.39;
     --font-size: 18px;
+    --cursor: pointer;
 }
 
 /****************/
@@ -62,12 +65,22 @@
 
 
 /* jouw code */
+
+html {
+    margin: 1.8em;
+}
+
 body {
-	background-color: var(--color-background);
-	font-family: 'AmericanTypewriterITCPro';
-	color: var(--color-text);
-	font-weight: var(--gewicht);
-	font-style: var(--stijl);
+    background-color: var(--color-background);
+    font-family: 'AmericanTypewriterITCPro';
+    color: var(--color-text);
+    font-weight: var(--gewicht);
+    font-style: var(--stijl);
+}
+
+main {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -77,22 +90,73 @@ body {
 /**************/
 
 nav {
-	display: flex;
-	justify-content: center;
-	font-size: var(--groottenavigatie);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: var(--groottenavigatie);
     font-family: var(--lettertype);
-    font-weight: 900;
+    font-weight: 700;
+    font-size: 1.3em;
+    line-height: 1;
+    text-transform: lowercase;
+    color: inherit;
+    cursor: var(--cursor);
 }
 
 ul {
-	display: flex;
-	gap: 2em;
+    display: flex;
+    gap: 2em;
 }
 
-ul li:nth-of-type(1){
-	list-style: none	;
+li:hover {
+    border-bottom: 2.5px solid white;
+}
+
+li a:active {
+    border-bottom: 2.5px solid white;
 }
 
 li.nietbold {
-	font-family: 'AmericanTypewriterITCPro-Lt';
+    font-family: 'AmericanTypewriterITCPro-Lt';
 }
+
+ul li:nth-of-type(1) {
+    list-style: none;
+}
+
+.tweedenav {
+    gap: .7em;
+}
+
+.tweedenav li {
+    list-style: none;
+}
+
+.vlag {
+    width: 2.5em;
+}
+
+.shoppingbag {
+    width: 1.4em;
+}
+
+.inloggen {
+    width: 5em;
+}
+
+.mission-bar__frame {
+    z-index: 2;
+    display: block;
+}
+
+#image-container {
+    width: 900px;   
+    height: 900px;
+    overflow: hidden;
+  }
+
+  #image-container img {
+    width: 100%;
+    height: auto;
+    /* display: none; */
+  }

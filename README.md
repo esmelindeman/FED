@@ -90,6 +90,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Mijn eerste poging tot het namaken van de navigatie
 <img src="readme-images/navigatie-nagemaakt.png" width="375px" alt="onze missie, doe mee, chocoshop, gepersonaliseerd, super store, en verder..">
 
+## Werkgroep 2 - verder met de code
+<summary>Ik ben begonnen met de animatie maken van de chocoladeletter. In de code van de website zie ik dat het allemaal losse plaatjes zijn die overgaan in elkaar. Ik ben gaan opzoeken hoe ik dit kan doen met code. https://chat.openai.com/c/f5ce79e8-4cc9-4292-a9f5-6cf819249248 </summary>
+
 </details>
 
 
