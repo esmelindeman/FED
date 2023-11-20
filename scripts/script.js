@@ -1,17 +1,53 @@
-// JavaScript Document
-console.log("hi");
+// // JavaScript Document
+// console.log("hi");
 
-const imageContainer = document.getElementById('image-container');
-const images = imageContainer.querySelectorAll('img');
-let currentImageIndex = 0;
+// const imageContainer = document.getElementById('image-container');
+// const images = imageContainer.querySelectorAll('img');
+// let currentImageIndex = 0;
+// let isFunctieUitgevoerd = false;
 
-function showNextImage() {
-  images[currentImageIndex].style.display = 'none';
+// function showNextImage() {
+//         images[currentImageIndex].style.display = 'none';
+//         currentImageIndex = (currentImageIndex + 1 ) % images.length;
+//         images[currentImageIndex].style.display = 'block';
+// }
 
-  currentImageIndex = (currentImageIndex + 1) % images.length;
 
-  images[currentImageIndex].style.display = 'block';
+// setInterval(showNextImage, 200); // 
+
+const imageSoucres = [
+  'img1.jpg',
+  'img2.jpg',
+]
+
+const timeOut = 200 
+const loop = false //true = door, false = stopt
+let images = Array.from(document.querySelectorAll('.image-carousel img')) 
+let img
+function carousel () {
+  if (img) img.classList.toggle('current')
+  img = images.shift() //eerste element van de array - daarna is de array 1 korter (20 ipv 21)
+  img.classList.toggle('current') //voor het plaatje dat je net hebt gepakt
+  if (loop && !images.length) {
+    images = Array.from(document.querySelectorAll('.image-carousel img'))
+  }
+  if (images.length) setTimeout(carousel, timeOut)
+}
+window.onload = () => {
+  imageSoucres.forEach(src => {
+    const img = new Image()
+    // preloaden images, zelf even opzoeken
+  })
+  setTimeout(carousel, timeOut)
 }
 
-// Stel de tijd in tussen de afbeeldingswisselingen (in milliseconden)
-setInterval(showNextImage, 200); // Verander dit getal naar de gewenste intervaltijd
+// functie voor het hamburgermenu
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}

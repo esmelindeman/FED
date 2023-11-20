@@ -57,6 +57,7 @@
     --lineheight: 1.39;
     --font-size: 18px;
     --cursor: pointer;
+
 }
 
 /****************/
@@ -70,9 +71,10 @@ html {
     margin: 1.8em;
 }
 
+
 body {
     background-color: var(--color-background);
-    font-family: 'AmericanTypewriterITCPro';
+    font-family: var(--lettertype);
     color: var(--color-text);
     font-weight: var(--gewicht);
     font-style: var(--stijl);
@@ -90,31 +92,28 @@ main {
 /**************/
 
 nav {
-    display: flex;
-    justify-content: right;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: right; */
+    /* align-items: center; */
     font-size: var(--groottenavigatie);
     font-family: var(--lettertype);
-    font-weight: 700;
-    font-size: 1.3em;
-    line-height: 1;
-    text-transform: lowercase;
-    color: inherit;
+    /* font-weight: 700; */
+    /* text-transform: lowercase; */
     cursor: var(--cursor);
 }
 
-ul {
+/* ul {
     display: flex;
     gap: 2em;
-}
+} */
 
-li:hover {
+/* li:hover {
     border-bottom: 2.5px solid white;
-}
+} */
 
-li a:active {
+/* li a:active {
     border-bottom: 2.5px solid white;
-}
+} */
 
 li.nietbold {
     font-family: 'AmericanTypewriterITCPro-Lt';
@@ -149,14 +148,56 @@ ul li:nth-of-type(1) {
     display: block;
 }
 
-#image-container {
-    width: 900px;   
+.image-carousel {
+    width: 900px; /* Pas de breedte en hoogte aan op basis van je afbeeldingen */
     height: 900px;
     overflow: hidden;
   }
 
-  #image-container img {
+  .image-carousel img {
     width: 100%;
     height: auto;
     /* display: none; */
   }
+
+.image-carousel img {
+    display: none;
+}
+
+.image-carousel img.current {
+    display: inherit
+}
+
+/* Style the navigation menu */
+ .topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+ 
+  /* Style the active link (or home/logo) */
+  .active {
+    color: white;
+  } 
