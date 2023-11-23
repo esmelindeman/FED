@@ -42,11 +42,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Chocoshop
-  <img src="readme-images/home.tony.png" width="375px" alt="Homepagina Dapph Design">
+  <img src="readme-images/home.tony.png" width="375px" alt="pagina van tony's chocolony waar de producten getoond worden">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Projecten pagina 
-  <img src="readme-images/missie.tony.png" width="375px" alt="Pagina waar de projecten laten zien worden.">
+  Missie 
+  <img src="readme-images/missie.tony.png" width="375px" alt="Pagina waar de missie van tony's chocolony besproken wordt.">
  
 </details>
 
