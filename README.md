@@ -63,6 +63,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### ADHD  
   <summary>Mensen met aandoeningen als ADHD hebben moeite met concentreren. Voor deze gebruiker is de site van Tony's onoverzichtelijk. Wel is er een duidelijke structuur wat wel weer zorgt voor meer overzicht op de website. De teksten zijn niet te lang en makkelijk te volgen, ook voor iemand met bijvoorbeeld ADHD. Audio en Video spelen niet automatisch af, wat zorgt voor rust op de website. De problemen die iemand met een aandoening als ADHD kan tegenkomen op deze website zijn de volgende. Er gebeurt heel veel en er is veel beweging op de website, de animaties maken de website aantrekkelijk maar niet voor iemand met concentratieproblemen. Er is nu geen mogelijkheid om deze animaties stil te zetten, dit is een belangrijk punt om te verbeteren zodat de website toegankelijker wordt voor deze gebruikersgroep. De navigatie - zeker in het hamburger menu - heeft heel veel elementen. Er wordt wel wat meer structuur aangebracht door de verschillende onderdelen van de website weer te geven met een specifieke kleur op de achtergrond (zie afbeelding).  </summary>
+  <img src="readme-images/hamburgermenu.png">
+
+  #### Slechthorenden
+  <summary>Voor slechthorenden zijn de resultaten wisselend. In eerste instantie was ik hier positief over tijdens de test. De video die ik bekeek op de website heeft namelijk ondertiteling, wat prettig is voor slechthorenden. <img src="readme-images/ondertiteling.png">. Daarna ging ik verder kijken en kwam ik nog een video tegen, deze had helaas geen ondertiteling. <img src="readme-images/geenondertiteling.png"> dus ook hier valt nog wat te verbeteren voor de website.</summary>
 </details>
 
 
@@ -94,7 +98,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <img src="readme-images/navigatie-nagemaakt.png" width="375px" alt="onze missie, doe mee, chocoshop, gepersonaliseerd, super store, en verder..">
 
 ## Werkgroep 2 - verder met de code
-<summary>Ik ben begonnen met de animatie maken van de chocoladeletter. In de code van de website zie ik dat het allemaal losse plaatjes zijn die overgaan in elkaar. Ik ben gaan opzoeken hoe ik dit kan doen met code. https://chat.openai.com/c/f5ce79e8-4cc9-4292-a9f5-6cf819249248 </summary>
+<summary>Ik ben begonnen met de animatie maken van de chocoladeletter. In de code van de website zie ik dat het allemaal losse plaatjes zijn die overgaan in elkaar. Ik ben gaan opzoeken hoe ik dit kan doen met code. Vanaf internet werd ik niet veel wijzer over hoe ik dit goed kan doen. Uiteindelijk heb ik het met JavaScript gedaan met hulp van mijn vader. De volgende code heb ik  hiervoor gebruikt.</summary>
+<img src=""
 
 </details>
 
