@@ -143,11 +143,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 2 (week 3)
 
+### Chaos
 <details>
-  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
+  <summary>Inmiddels ben ik begonnen met het maken van een hamburger menu. Daardoor ben ik totaal het overzicht kwijt geraakt, voornamelijk in mijn CSS. Mijn HTML staat duidelijk en overzichtelijk maar in de CSS ben ik het even kwijt. Ik ga daarom nu het hamburger menu even achterwege laten en ga nu eerst mijn code even op orde krijgen en netjes maken.</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  <summary>Over het algemeen gaat het heel goed. Ik ben goed op weg en de HTML staat netjes, ik probeer hierbij zo min mogelijk ID's en classes te gebruiken. Ik ben nog niet heel ver omdat ik veel aan het kloten ben met de navigatie en het hamburger menu.</summary>
 
 
   ### Agenda voor meeting
